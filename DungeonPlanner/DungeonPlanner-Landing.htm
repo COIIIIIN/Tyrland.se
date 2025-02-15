@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style.css">
+	<link rel="icon" href="../Res/icon.png">
+	<title>DungeonPlanner</title>
+</head>
+<body>
+	<nav>
+		<h1 class="Hidden">DungeonPlanner</h1>
+		<div class="NavDiv">
+			<a href="../index.htm" class="Tl Link TyrLink">Tyrland.se</a>
+			<a href="../Links/Links.htm" class="Tl Link">Links</a>
+		</div>
+		<div class="NavDropdown">
+			<a href="../about/about.htm" class="Link Tl NavDropdownItem">About</a>
+			<a href="../about/Blog/Blog.htm" class="Link Tl NavDropdownItem">Blog</a>
+		</div>
+		<div class="NavDropdown">
+			<a href="../TestPage/TestPage.htm" class="Link Tl NavDropdownItem">Tools</a>
+			<a href="../DungeonPlanner/DungeonPlanner.htm" class="Link Tl NavDropdownItem">DungeonPlanner</a>
+		</div>
+	</nav>
+	<div id="ContentContainer">
+		<div style="height:36pt; padding: 10pt;"></div>
+		<div class="ContentFlex">
+			<div class="Content">
+				<!--Begin content here-->
+				<h2>
+					DungeonPlanner
+				</h2>
+				<p id="LongGoddamnDescription">
+					Welcome, traveller! This is DungeonPlanner, a tool built for organising DnD sessions and meticolously negotiate sessions
+				</p>
+				<div id="SplitDisplay">
+					<!--This handles creating and joining a new group.-->
+					<form action="index.php" class="Glass Centre" style="width: 100%; height: 120pt" method="get">
+						<input type="text" name="GroupName" class="">
+						<button type="submit" class="Glass Button"><h2 class="" style="margin: 5pt;">Create new group</h2></button>
+						<p>Group names may only contain ASCII characters</p>
+					</form>
+					<p class="Centre">or...</p>
+					<!--This handles joining a group.-->
+					<form action="index.php" class="Glass Centre" style="width: 100%; height: 120pt" method="post">
+						<input type="text" name="GroupKey" class="">
+						<button type="submit" class="Glass Button"><h2 class="" style="margin: 5pt;">Join group</h2></button>
+						<p>Using a group key</p>
+					</form>
+				</div>
+				<p class="Centre">Alternatively,</p>
+				<p class="Centre">Open a joined group...</p>
+				<div>
+					<form action="index.php" class="Glass ContentFlex" style="width: 100%; height:80pt" method="get">
+						<button type="submit" name="OpenGroup" value="GroupName" class="Glass Button"><h2 style=margin:5pt>GroupName</h2></button>
+						<button type="submit" name="OpenGroup" value="Group2" class="Glass Button"><h2 style=margin:5pt>Group2</h2></button>
+						<button type="submit" name="OpenGroup" value="GroupThree" class="Glass Button"><h2 style=margin:5pt>GroupThree</h2></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

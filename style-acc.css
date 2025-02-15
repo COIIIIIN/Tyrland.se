@@ -1,0 +1,161 @@
+p,h1,h2,h3,h4,h5,h6{
+	font-family: 'Segoe UI', system-ui, sans-serif;
+	color:white;
+}
+.Hidden{
+	width: 0;
+	height: 0;
+	display: none;
+}
+nav{
+	display: flex;
+	flex-flow: row;
+	margin: 0;
+	padding: 0;
+	height: 50pt;
+	z-index: 1;
+	position: sticky;
+	width: 100%;
+	object-fit: scale-down;
+	border-bottom-style: solid;
+	
+}
+.NavDiv{
+	margin:0;
+	padding:0;
+	display: flex;
+	flex-flow: row;
+	height: 100%;
+	z-index: 1;
+	width: fit-content;
+	object-fit: scale-down;
+	align-items: center;
+}
+.Tl{
+	display: flex;
+	margin: 9pt;
+	padding: 0pt;
+	height: 100%;
+	align-items: center;
+	text-decoration: none;
+	font-size: 30pt;
+	white-space: nowrap;
+	font-weight: 700;
+}
+.Link{
+	text-decoration: none;
+	color:#000000;
+	transition: 200ms;
+	filter: invert(50%) sepia(94%) saturate(1084%) hue-rotate(196deg) brightness(101%) contrast(103%);
+}
+.Link:hover{
+	text-decoration: underline;
+	filter: invert(32%) sepia(94%) saturate(6271%) hue-rotate(267deg) brightness(91%) contrast(95%);
+}
+.ExtLink{
+	padding-right: 1em;
+	background-position: right center;
+	background-size: 0.857em;
+	background-repeat: no-repeat;
+	background-image: url("Res/ext-link.svg");
+}
+.LtLink:visited{
+	text-decoration: none;
+}
+.TyrLink{
+	padding-left: 1.2em;
+	background-position: left center;
+	background-size: 1em;
+	background-repeat: no-repeat;
+	background-image: url("Res/icon-dark.png");
+}
+html,body{
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-image: url("Res/bg.webp");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+#ContentContainer{
+	display: block;
+	overflow-y: scroll;
+	height:100%;
+	top:0;
+	width:100%;
+	position: absolute;
+	backdrop-filter: blur(1px);
+}
+.Content{
+	Padding: 10pt;
+	width:100%;
+	max-width:600pt;
+}
+.BlogPost{
+	border-style: outset;
+	padding: 10pt;
+	display: grid;
+	margin: 10pt;
+}
+#ErrorCode{
+	font-family: monospace;
+	font-size: 27pt;
+	margin: 12px;
+}
+.DateString{
+	font-family: monospace;
+}
+.BlueBox{
+	background-color: blue;
+	position:absolute;
+	height: 45%;
+}
+.CenteredWastefulDiv{
+	background-color: #444444;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.NavDropdown{
+	color:blueviolet;
+	height:100%;
+	transition:all 100ms;
+	display: flex;
+	flex-flow: row wrap;
+	overflow:hidden;
+	width:auto;
+	min-height: 100%;
+}
+.NavDropdown:hover{
+	background-color: #00000088;
+	color:blueviolet;
+	height:fit-content;
+	width:fit-content;
+	min-height: 100%;
+}
+.NavDropdownItem{
+	width:fit-content;
+	height:fit-content;
+}
+.ContentFlex{
+	display:flex;
+	justify-content: center;
+}
+#BlogArea{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.Glass, nav{
+	background-image: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #0d1b34;
+	border-color: #081330;
+}
+@media only screen and (max-width: 800px){
+	#BlogArea{
+		grid-template-columns: 100%;
+	}
+}
