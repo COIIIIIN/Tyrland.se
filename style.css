@@ -216,11 +216,34 @@ nav{
 	width: fit-content;
 	height:fit-content;
 }
+.OverFlow{
+	width:0;
+	height:0;
+	display:none;
+}
 @media only screen and (max-width: 800px){
 	#BlogArea{
 		grid-template-columns: 100%;
 	}
 	#SplitDisplay{
 		grid-template-columns: 100%;
+	}
+}
+@media only screen and (max-width: 720px){
+	.NavDropdown{
+		width:0;
+		height:0;
+		display: none;
+	}
+	.OverFlow{
+		margin:0;
+		padding:0;
+		display: flex;
+		flex-flow: row;
+		height: 100%;
+		z-index: 1;
+		width: fit-content;
+		object-fit: scale-down;
+		align-items: center;
 	}
 }
