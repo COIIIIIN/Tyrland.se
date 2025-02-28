@@ -175,11 +175,13 @@ nav{
 .Button{
 	border-style: outset;
 	transition:50ms;
+	transition:box-shadow 200ms;
 	filter: brightness(100%);
 }
 .Button:hover{
 	border-style: inset;
-	filter: brightness(80%);
+	filter: brightness(120%);
+	box-shadow: -0px 0px 10px 10px #2f528d40;
 }
 .ndb{
 	font-family: monospace, 'Courier New', Courier;
@@ -197,12 +199,14 @@ nav{
 	color: white;
 	text-decoration: none;
 	transition:10ms;
+	transition:box-shadow 200ms;
 	border-style: inset;
 }
 .adb:hover{
 	text-decoration: underline;
 	filter: brightness(120%);
 	border-style: inset;
+	box-shadow: -0px 0px 10px 10px #2f528d40;
 }
 .Calendar{
 	font-size: 200%;
