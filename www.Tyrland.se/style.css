@@ -191,6 +191,7 @@ nav{
 	text-align: center;
 	text-decoration: none;
 	border-style: inset;
+	backdrop-filter: none;
 }
 .adb{
 	font-family: monospace, 'Courier New', Courier;
@@ -199,14 +200,16 @@ nav{
 	color: white;
 	text-decoration: none;
 	transition:10ms;
-	transition:box-shadow 200ms;
+	transition:box-shadow 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
 	border-style: inset;
+	backdrop-filter: none;
 }
 .adb:hover{
 	text-decoration: underline;
 	filter: brightness(120%);
 	border-style: inset;
 	box-shadow: -0px 0px 10px 10px #2f528d40;
+	backdrop-filter: none;
 }
 .Calendar{
 	font-size: 200%;
