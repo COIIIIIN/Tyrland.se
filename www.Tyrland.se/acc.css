@@ -1,0 +1,10 @@
+.Glass, nav{
+	background-image: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #0d1b34;
+	border-color: #081330;
+	border-style: outset;
+	box-sizing: border-box;
+	border-width: 3pt;
+}

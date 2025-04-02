@@ -140,6 +140,7 @@ html,body{
 	background-size: cover;
 	background-color: #0d1b34;
 	border-color: #081330;
+	backdrop-filter: none;
 }
 nav{
 	display: flex;
