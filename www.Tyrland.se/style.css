@@ -19,10 +19,11 @@ p,h1,h2,h3,h4,h5,h6{
 	align-items: center;
 }
 .Tl{
+	height:fit-content;
+	box-sizing: border-box;
 	display: flex;
 	margin: 9pt;
 	padding: 0pt;
-	height: 100%;
 	align-items: center;
 	text-decoration: none;
 	font-size: 200%;
@@ -121,7 +122,6 @@ html,body{
 }
 .NavDropdownItem{
 	width:fit-content;
-	height:fit-content;
 }
 .ContentFlex{
 	display:flex;
@@ -144,6 +144,7 @@ html,body{
 	border-style: outset;
 	box-sizing: border-box;
 	border-width: 3pt;
+	color: white;
 }
 nav{
 	display: flex;
@@ -175,13 +176,18 @@ nav{
 .Button{
 	border-style: outset;
 	transition:50ms;
-	transition:box-shadow 200ms;
+	transition:box-shadow filter 100ms;
 	filter: brightness(100%);
 }
 .Button:hover{
-	border-style: inset;
-	filter: brightness(120%);
+	border-style: outset;
+	filter: brightness(140%);
 	box-shadow: -0px 0px 10px 10px #2f528d40;
+}
+.Button:active{
+	border-style: inset;
+	filter: brightness(180%);
+	box-shadow: -0px 0px 15px 15px #2f528d40;
 }
 .ndb{
 	font-family: monospace, 'Courier New', Courier;
@@ -206,9 +212,9 @@ nav{
 }
 .adb:hover{
 	text-decoration: underline;
-	filter: brightness(120%);
+	filter: brightness(200%);
 	border-style: inset;
-	box-shadow: -0px 0px 10px 10px #2f528d40;
+	box-shadow: -0px 0px 10px 10px #15305e40;
 	backdrop-filter: none;
 }
 .Calendar{
@@ -228,6 +234,26 @@ nav{
 	height:0;
 	display:none;
 }
+input[type="text"]{
+	border-bottom-style: solid !important;
+	border-bottom-color: white !important;
+	border-bottom-width: 5px;
+	outline:none;
+	transition: all 200ms;
+}
+input:hover{
+	box-shadow: 0 0 6px 6px #2f528d20;
+	filter: brightness(110%);
+}
+input[type="text"]:focus, input[type="checkbox"]:active{
+	filter: brightness(140%);
+	box-shadow: 0 0 10px 10px #2f528d40;
+	outline:none;
+}
+.SettingsButton{
+	font-weight: 1000;
+}
+
 @media only screen and (max-width: 800px){
 	#BlogArea{
 		grid-template-columns: 100%;
