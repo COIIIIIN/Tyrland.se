@@ -8,24 +8,9 @@
 	<title>Blog</title>
 </head>
 <body>
-	<nav>
-		<h1 class="Hidden">Blog</h1>
-		<div class="NavDiv">
-			<a href="../../index.htm" class="Tl Link TyrLink">Tyrland.se</a>
-		</div>
-		<div class="NavDropdown">
-			<a href="../../about/about.htm" class="Link Tl NavDropdownItem">About</a>
-			<a href="../../Links/Links.htm" class="Tl Link NavDropdownItem">Links</a>
-			<a href="../../about/Blog/Blog.htm" class="Link Tl NavDropdownItem">Blog</a>
-		</div>
-		<div class="NavDropdown">
-			<a href="../../TestPage/TestPage.htm" class="Link Tl NavDropdownItem">Tools</a>
-			<a href="../../DungeonPlanner/DungeonPlanner.htm" class="Link Tl NavDropdownItem">DungeonPlanner</a>
-		</div>
-		<div class="OverFlow">
-			<a href="../../SiteIndex/SiteIndex.htm" class="Link Tl">≣</a>
-		</div>
-	</nav>
+	<?php
+		readfile("../../nav.htm");
+	?>
 	<div id="ContentContainer">
 		<div style="height:36pt; padding: 10pt;"></div>
 		<!--Begin content here-->
