@@ -103,6 +103,30 @@
 							working on it until I have a finished product.
 						</p>
 					</div>
+					<div class="BlogPost Glass">
+						<h2>Massive change, without actual change</h2>
+						<p class="DateString">2025-01-29</p>
+						<p>
+							Such is the state of Tyrland.se right now, there have been massive
+							improvements in the backend of the site, performance, and QoL
+							improvements for maintaining and updating the site. Now the site almost
+							exclusively uses index.php-files instead of [whatever].htm-files,
+							meaning you no longer see the file extension unless you specifically
+							naigate to it. It should also be noted that the site is almost
+							completely non-functional using local browsing now that most files
+							use PHP, although maybe you could install PHP on your dev
+							environment, I cannot be bothered. These are all great additions,
+							but what's next? What's the next big improvement/feature?<br><br>
+							Well, I don't know. DungeonPlanner still needs doing, but the big
+							thing there is doing the backend, which I have been struggling to
+							do for a while, and my motivation has been waning significantly,
+							meaning it might take a while to finally get DungeonPlanner
+							operational, but it should be operational sometime, just not in
+							the near future. Aside from that, however, a rework of the main
+							page would be in order at some point, perhaps to make it a little
+							bit more useful.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>

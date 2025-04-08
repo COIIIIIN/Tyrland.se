@@ -48,7 +48,7 @@
 						}
 					}
 				</script>
-				<a href="TestPage/TestPage.htm" class="Link">
+				<a href="TestPage/" class="Link">
 					<h3 class="Link">
 						How about a test page?
 					</h3>
