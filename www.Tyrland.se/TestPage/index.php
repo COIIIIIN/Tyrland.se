@@ -8,6 +8,7 @@
 	<title>Test page</title>
 </head>
 <body>
+	<h1 class="Hidden">Tyrland.se test page</h1>
 	<?php
 		readfile("../nav.htm");
 	?>

@@ -8,6 +8,7 @@
 	<title>Blog</title>
 </head>
 <body>
+	<h1 class="Hidden">Tyrland.se blog</h1>
 	<?php
 		readfile("../../nav.htm");
 	?>

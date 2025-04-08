@@ -8,6 +8,7 @@
 	<title>Höst</title>
 </head>
 <body>
+	<h1 class="Hidden">Tyrland.se - höst</h1>
 	<?php
 		readfile("../nav.htm");
 	?>

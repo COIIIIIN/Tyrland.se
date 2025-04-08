@@ -8,6 +8,7 @@
 	<title>About Tyrland.se</title>
 </head>
 <body>
+	<h1 class="Hidden">About Tyrland.se</h1>
 	<?php
 		readfile("../nav.htm");
 	?>
