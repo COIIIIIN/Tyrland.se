@@ -109,22 +109,41 @@
 						<p>
 							Such is the state of Tyrland.se right now, there have been massive
 							improvements in the backend of the site, performance, and QoL
-							improvements for maintaining and updating the site. Now the site almost
-							exclusively uses index.php-files instead of [whatever].htm-files,
-							meaning you no longer see the file extension unless you specifically
-							naigate to it. It should also be noted that the site is almost
-							completely non-functional using local browsing now that most files
-							use PHP, although maybe you could install PHP on your dev
-							environment, I cannot be bothered. These are all great additions,
-							but what's next? What's the next big improvement/feature?<br><br>
-							Well, I don't know. DungeonPlanner still needs doing, but the big
-							thing there is doing the backend, which I have been struggling to
+							improvements for maintaining and updating the site. Now the site
+							almost exclusively uses index.php-files instead of
+							[whatever].htm-files, meaning you no longer see the file extension
+							unless you specifically navigate to it. It should also be noted that
+							the site is almost completely non-functional using local browsing
+							now that most files use PHP, although maybe you could install PHP on
+							your dev environment, I cannot be bothered. These are all great
+							additions, but what's next? What's the next big improvement/feature?
+							<br><br>Well, I don't know. DungeonPlanner still needs doing, but the
+							big thing there is doing the backend, which I have been struggling to
 							do for a while, and my motivation has been waning significantly,
 							meaning it might take a while to finally get DungeonPlanner
 							operational, but it should be operational sometime, just not in
 							the near future. Aside from that, however, a rework of the main
 							page would be in order at some point, perhaps to make it a little
 							bit more useful.
+						</p>
+					</div>
+					<div class="BlogPost Glass">
+						<h2>Home server down</h2>
+						<p class="DateString">2025-01-29</p>
+						<p>
+							The home server that was hosting Tyrland.se, currently only found
+							at <a href="http://158.174.115.144/">http://158.174.115.144/</a>
+							has recently had issues meaning I had to shut it down. It seems
+							like the fan started developing problems with it's sensor, causing
+							the server to run the fan at max, as suddenly the server couldn't
+							tell how fast the fan was going. I am kind of conflicted regarding
+							this failure: on one hand, it's bad that the server's fan is failing,
+							but on the other, good riddance. That fan has been noisy since
+							forever, and so I'm glad to replace it. Unfortunately these issues
+							developed the day before a skiing trip, meaning repairs will have
+							to wait until I get home from said trip. I should hopefully be able
+							to get the server up and running again in not too long, but this was
+							definitely annoying.
 						</p>
 					</div>
 				</div>
