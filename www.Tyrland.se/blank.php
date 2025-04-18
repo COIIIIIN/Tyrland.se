@@ -13,12 +13,9 @@
 		readfile("../nav.htm");
 	?>
 	<div id="ContentContainer">
-		<div style="height:36pt; padding: 10pt;"></div>
-		<div class="ContentFlex">
-			<div class="Content">
-				<!--Begin content here-->
-				<p>Content</p>
-			</div>
+		<div class="Content">
+			<!--Begin content here-->
+			<p>Content</p>
 		</div>
 	</div>
 </body>

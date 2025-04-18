@@ -13,18 +13,15 @@
 		readfile("../nav.htm");
 	?>
 	<div id="ContentContainer">
-		<div style="height:36pt; padding: 10pt;"></div>
-		<div class="ContentFlex">
-			<div class="Content">
-				<!--Begin content here-->
-				<h2>
-					Hey!
-				</h2>
-				<p>
-					No snooping at the resources!<br>
-					(Or at least get yourself a full URL to the resource you're looking for...)
-				</p>
-			</div>
+		<div class="Content">
+			<!--Begin content here-->
+			<h2>
+				Hey!
+			</h2>
+			<p>
+				No snooping at the resources!<br>
+				(Or at least get yourself a full URL to the resource you're looking for...)
+			</p>
 		</div>
 	</div>
 </body>

@@ -13,47 +13,44 @@
 		readfile("nav.htm");
 	?>
 	<div id="ContentContainer">
-		<div style="height:36pt; padding: 10pt;"></div>
-		<div class="ContentFlex">
-			<div class="Content">
-				<!--Begin content here-->
-				<h2>
-					Welcome to Tyrland.se!
-				</h2>
-				<p>
-					Here you can find things. Don't know which things, though.
-				</p>
-				<button class="Glass Button" id="PrivacyPolicyButton" onclick="TogglePrivacyPolicy()">Hide privacy policy</button>
-				<div id="PrivacyPolicy">
-					<p>No information is saved about you except for these things:</p>
-					<ul>
-						<li>
-							Whether you use the accessible/basic UI style, to remember to automatically deliver the right UI style. This is stored as a cookie.
-						</li>
-						<li>
-							(Yeah, there is only one bool saved right now...)
-						</li>
-					</ul>
-				</div>
-				<script id="btnScript">
-					function TogglePrivacyPolicy(){
-						var btn = document.getElementById("PrivacyPolicyButton");
-						var pol = document.getElementById("PrivacyPolicy");
-						pol.hidden = !pol.hidden;
-						if(pol.hidden === true){
-							btn.textContent = "Show privacy policy";
-						}
-						else{
-							btn.textContent = "Hide privacy policy";
-						}
-					}
-				</script>
-				<a href="TestPage/" class="Link">
-					<h3 class="Link">
-						How about a test page?
-					</h3>
-				</a>
+		<div class="Content">
+			<!--Begin content here-->
+			<h2>
+				Welcome to Tyrland.se!
+			</h2>
+			<p>
+				Here you can find things. Don't know which things, though.
+			</p>
+			<button class="Glass Button" id="PrivacyPolicyButton" onclick="TogglePrivacyPolicy()">Hide privacy policy</button>
+			<div id="PrivacyPolicy">
+				<p>No information is saved about you except for these things:</p>
+				<ul>
+					<li>
+						Whether you use the accessible/basic UI style, to remember to automatically deliver the right UI style. This is stored as a cookie.
+					</li>
+					<li>
+						(Yeah, there is only one bool saved right now...)
+					</li>
+				</ul>
 			</div>
+			<script id="btnScript">
+				function TogglePrivacyPolicy(){
+					var btn = document.getElementById("PrivacyPolicyButton");
+					var pol = document.getElementById("PrivacyPolicy");
+					pol.hidden = !pol.hidden;
+					if(pol.hidden === true){
+						btn.textContent = "Show privacy policy";
+					}
+					else{
+						btn.textContent = "Hide privacy policy";
+					}
+				}
+			</script>
+			<a href="TestPage/" class="Link">
+				<h3 class="Link">
+					How about a test page?
+				</h3>
+			</a>
 		</div>
 	</div>
 </body>

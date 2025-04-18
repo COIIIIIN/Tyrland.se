@@ -13,54 +13,51 @@
 		readfile("../nav.htm");
 	?>
 	<div id="ContentContainer">
-		<div style="height:36pt; padding: 10pt;"></div>
-		<div class="ContentFlex">
-			<div class="Content">
-				<!--Begin content here-->
-				<p>This is where I test different things that I'd like to experiment with.</p>
-				<p>
-					Here is some text <a href="https://en.m.wikipedia.org/wiki/html" class="Link ExtLink">with a link</a> to test the ExtLink class.
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					text
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					text
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					text
-				</p>
-			</div>
+		<div class="Content">
+			<!--Begin content here-->
+			<p>This is where I test different things that I'd like to experiment with.</p>
+			<p>
+				Here is some text <a href="https://en.m.wikipedia.org/wiki/html" class="Link ExtLink">with a link</a> to test the ExtLink class.
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				text
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				text
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				text
+			</p>
 		</div>
 	</div>
 </body>

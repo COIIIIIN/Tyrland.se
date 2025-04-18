@@ -67,15 +67,17 @@ html,body{
 	background-size: cover;
 }
 #ContentContainer{
-	display: block;
+	display: flex;
 	overflow-y: scroll;
-	height:100%;
 	top:0;
 	width:100%;
 	position: absolute;
 	backdrop-filter: blur(1px);
+	padding-top: 56.4pt;
+	bottom:0;
+	justify-content: center;
 }
-.Content{
+.Content-old{
 	Padding: 10pt;
 	width:100%;
 	max-width:600pt;
@@ -124,9 +126,13 @@ html,body{
 .NavDropdownItem{
 	width:fit-content;
 }
-.ContentFlex{
-	display:flex;
-	justify-content: center;
+.Content{
+	display:block;
+	box-sizing: border-box;
+	width:100%;
+	max-width:600pt;
+	padding:10pt;
+	height:fit-content;
 }
 #BlogArea{
 	display: grid;
@@ -168,7 +174,6 @@ nav{
 	filter: brightness(100%);
 }
 .Button:hover{
-	border-style: outset;
 	filter: brightness(140%);
 	box-shadow: -0px 0px 10px 10px #2f528d40;
 }
@@ -177,33 +182,26 @@ nav{
 	filter: brightness(180%);
 	box-shadow: -0px 0px 15px 15px #2f528d40;
 }
-.ndb{
+.ci{
 	font-family: monospace, 'Courier New', Courier;
-	filter: saturate(60%) brightness(80%);
-	margin:0;
 	color: white;
-	text-align: center;
-	text-decoration: none;
 	border-style: inset;
+	text-decoration: none;
+	text-align: center;
+	margin:0;
 	backdrop-filter: none;
 }
+.ndb{
+	filter: saturate(60%) brightness(80%);
+}
 .adb{
-	font-family: monospace, 'Courier New', Courier;
-	margin:0;
-	text-align: center;
-	color: white;
-	text-decoration: none;
 	transition:10ms;
 	transition:box-shadow 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
-	border-style: inset;
-	backdrop-filter: none;
 }
 .adb:hover{
 	text-decoration: underline;
 	filter: brightness(200%);
-	border-style: inset;
 	box-shadow: -0px 0px 10px 10px #15305e40;
-	backdrop-filter: none;
 }
 .Calendar{
 	font-size: 200%;

@@ -13,15 +13,12 @@
 		readfile("../nav.htm");
 	?>
 	<div id="ContentContainer">
-		<div style="height:36pt; padding: 10pt;"></div>
-		<div class="ContentFlex">
-			<div class="Content">
-				<!--Begin content here-->
-				<h2>
-					Here you will be able to find links to other interesting, fun, or useful sites.<br>
-					There are currently none here.
-				</h2>
-			</div>
+		<div class="Content">
+			<!--Begin content here-->
+			<h2>
+				Here you will be able to find links to other interesting, fun, or useful sites.<br>
+				There are currently none here.
+			</h2>
 		</div>
 	</div>
 </body>

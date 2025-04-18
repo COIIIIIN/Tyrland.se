@@ -13,15 +13,12 @@
 		readfile("../nav.htm");
 	?>
 	<div id="ContentContainer">
-		<div style="height:36pt; padding: 10pt;"></div>
-		<div class="ContentFlex">
-			<div class="Content">
-				<!--Begin content here-->
-				<form method="post" action="settings.php">
-					<p><input type="checkbox" class="CheckBox" name="ACC">Use basic/accessible theme</p>
-					<button type="submit" class="Glass Button">Apply</button>
-				</form>
-			</div>
+		<div class="Content">
+			<!--Begin content here-->
+			<form method="post" action="settings.php">
+				<p><input type="checkbox" class="CheckBox" name="ACC">Use basic/accessible theme</p>
+				<button type="submit" class="Glass Button">Apply</button>
+			</form>
 		</div>
 	</div>
 </body>
