@@ -17,7 +17,7 @@
 			<!--Begin content here-->
 			<p>This is where I test different things that I'd like to experiment with.</p>
 			<p>
-				Here is some text <a href="https://en.m.wikipedia.org/wiki/html" class="Link ExtLink">with a link</a> to test the ExtLink class.
+				Here is some text <a href="https://en.m.wikipedia.org/wiki/html" class="Link ExtLink U">with a link</a> to test the ExtLink class.
 				<br>
 				<br>
 				<br>

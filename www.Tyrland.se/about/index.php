@@ -22,8 +22,9 @@
 			</p>
 			<p>
 				Background image from Wikimedia Commons, although significantly edited & cropped to fit my needs:<br>
-				<a href="https://commons.wikimedia.org/wiki/File:Pillars_of_Creation_(NIRCam_Image).jpg">SCIENCE: NASA, ESA, CSA, STScIIMAGE PROCESSING: Joseph DePasquale (STScI), Anton M. Koekemoer (STScI), Alyssa Pagan (STScI)</a>, Public domain, via Wikimedia Commons
+				<a class="Link U" href="https://commons.wikimedia.org/wiki/File:Pillars_of_Creation_(NIRCam_Image).jpg">SCIENCE: NASA, ESA, CSA, STScIIMAGE PROCESSING: Joseph DePasquale (STScI), Anton M. Koekemoer (STScI), Alyssa Pagan (STScI)</a>, Public domain, via Wikimedia Commons
 			</p>
+			<h2><a href="/About/Blog" class="Link">Blog page</a></h2>
 		</div>
 	</div>
 </body>

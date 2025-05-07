@@ -1,3 +1,3 @@
 <?php
-	readfile("DungeonPlanner-Landing.htm");
+	readfile("DungeonPlanner.htm");
 ?>

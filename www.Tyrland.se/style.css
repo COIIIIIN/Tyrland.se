@@ -1,22 +1,15 @@
-p,h1,h2,h3,h4,h5,h6,html,body{
+html,body{
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color:white;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-image: url("Res/bg.webp");
+	background-repeat:no-repeat;
+	background-size: cover;
 }
 .Hidden{
-	width: 0;
-	height: 0;
 	display: none;
-}
-.NavDiv{
-	margin:0;
-	padding:0;
-	display: flex;
-	flex-flow: row;
-	height: 100%;
-	z-index: 1;
-	width: fit-content;
-	object-fit: scale-down;
-	align-items: center;
 }
 .Tl{
 	height:fit-content;
@@ -36,6 +29,9 @@ p,h1,h2,h3,h4,h5,h6,html,body{
 	text-decoration: none;
 	color:#639bff;
 	transition: 200ms;
+}
+.U{
+	text-decoration: underline;
 }
 .Link:hover{
 	text-decoration: underline;
@@ -57,14 +53,6 @@ p,h1,h2,h3,h4,h5,h6,html,body{
 	background-size: 1em;
 	background-repeat: no-repeat;
 	background-image: url("Res/icon.png");
-}
-html,body{
-	height: 100%;
-	margin: 0;
-	overflow: hidden;
-	background-image: url("Res/bg.webp");
-	background-repeat:no-repeat;
-	background-size: cover;
 }
 #ContentContainer{
 	display: flex;
@@ -93,38 +81,8 @@ html,body{
 	font-size: 27pt;
 	margin: 12px;
 }
-.DateString{
+.Mono{
 	font-family: monospace;
-}
-.BlueBox{
-	background-color: blue;
-	position:absolute;
-	height: 45%;
-}
-.CenteredWastefulDiv{
-	background-color: #444444;
-	max-width: 800px;
-	margin: 0 auto;
-}
-.NavDropdown{
-	color:blueviolet;
-	height:100%;
-	transition:all 100ms;
-	display: flex;
-	flex-flow: row wrap;
-	overflow:hidden;
-	width:auto;
-	min-height: 100%;
-}
-.NavDropdown:hover{
-	background-color: #00000088;
-	color:blueviolet;
-	height:fit-content;
-	width:fit-content;
-	min-height: 100%;
-}
-.NavDropdownItem{
-	width:fit-content;
 }
 .Content{
 	display:block;
@@ -170,7 +128,7 @@ nav{
 .Button{
 	border-style: outset;
 	transition:50ms;
-	transition:box-shadow filter 100ms;
+	transition:all 100ms;
 	filter: brightness(100%);
 }
 .Button:hover{
@@ -239,19 +197,8 @@ input[type="text"]:focus, input[type="checkbox"]:active{
 .SettingsButton{
 	font-weight: 1000;
 }
-
-@media only screen and (max-width: 800px){
-	#BlogArea{
-		grid-template-columns: 100%;
-	}
-	#SplitDisplay{
-		grid-template-columns: 100%;
-	}
-}
-@media only screen and (max-width: 720px){
-	.NavDropdown{
-		width:0;
-		height:0;
+@media only screen and (max-width: 980px){
+	.OvrHd{
 		display: none;
 	}
 	.OverFlow{
@@ -264,5 +211,13 @@ input[type="text"]:focus, input[type="checkbox"]:active{
 		width: fit-content;
 		object-fit: scale-down;
 		align-items: center;
+	}
+}
+@media only screen and (max-width: 720px){
+	#BlogArea{
+		grid-template-columns: 100%;
+	}
+	#SplitDisplay{
+		grid-template-columns: 100%;
 	}
 }

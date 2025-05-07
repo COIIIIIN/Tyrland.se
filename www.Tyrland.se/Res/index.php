@@ -21,6 +21,7 @@
 			<p>
 				No snooping at the resources!<br>
 				(Or at least get yourself a full URL to the resource you're looking for...)
+				<h2><a class="Link U">Main Page</a></h2>
 			</p>
 		</div>
 	</div>

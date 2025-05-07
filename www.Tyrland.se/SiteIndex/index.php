@@ -15,6 +15,7 @@
 	<div id="ContentContainer">
 		<div class="Content">
 			<!--Begin content here-->
+			<h2>Page index:</h2>
 			<ul>
 				<a href="/" class="Tl Link">Main page</a>
 				<a href="/Links" class="Tl Link">Links</a>
