@@ -14,7 +14,7 @@
 	?>
 	<div id="ContentContainer">
 		<!--Begin content here-->
-		<div class="Content">
+		<div id="Content">
 			<div id="BlogArea">
 				<!--Start-Blog-Posts-->
 				<div class="BlogPost Glass">

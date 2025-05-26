@@ -13,7 +13,7 @@
 		readfile("../nav.htm");
 	?>
 	<div id="ContentContainer">
-		<div class="Content">
+		<div id="Content">
 			<!--Begin content here-->
 			<h2>
 				Here you will be able to find links to other interesting, fun, or useful sites.<br>

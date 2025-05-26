@@ -13,7 +13,7 @@
 		readfile("../nav.htm");
 	?>
 	<div id="ContentContainer">
-		<div class="Content">
+		<div id="Content">
 			<!--Begin content here-->
 			<p>This is where I test different things that I'd like to experiment with.</p>
 			<p>

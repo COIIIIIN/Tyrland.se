@@ -13,7 +13,7 @@
 		readfile("../nav.htm");
 	?>
 	<div id="ContentContainer">
-		<div class="Content">
+		<div id="Content">
 			<!--Begin content here-->
 			<form method="post" action="settings.php">
 				<p><input type="checkbox" class="CheckBox" name="ACC">Use basic/accessible theme</p>

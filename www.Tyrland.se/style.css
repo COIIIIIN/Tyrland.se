@@ -84,7 +84,7 @@ html,body{
 .Mono{
 	font-family: monospace;
 }
-.Content{
+#Content{
 	display:block;
 	box-sizing: border-box;
 	width:100%;
@@ -212,6 +212,19 @@ input[type="text"]:focus, input[type="checkbox"]:active{
 		object-fit: scale-down;
 		align-items: center;
 	}
+}
+a.JTC{
+	display: block;
+	width:0;
+	overflow: hidden;
+	margin-left: 0;
+	margin-right:0;
+}
+a.JTC:focus{
+	display:block;
+	width:auto;
+	overflow: hidden;
+	margin:9pt;
 }
 @media only screen and (max-width: 720px){
 	#BlogArea{
