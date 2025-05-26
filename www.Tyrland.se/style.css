@@ -197,7 +197,7 @@ input[type="text"]:focus, input[type="checkbox"]:active{
 .SettingsButton{
 	font-weight: 1000;
 }
-@media only screen and (max-width: 980px){
+@media only screen and (max-width: 1090px){
 	.OvrHd{
 		display: none;
 	}
