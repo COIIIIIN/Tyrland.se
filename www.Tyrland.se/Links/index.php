@@ -12,14 +12,12 @@
 	<?php
 		readfile("../nav.htm");
 	?>
-	<div id="ContentContainer">
-		<div id="Content">
-			<!--Begin content here-->
-			<h2>
-				Here you will be able to find links to other interesting, fun, or useful sites.<br>
-				There are currently none here.
-			</h2>
-		</div>
+	<div id="Content">
+		<!--Begin content here-->
+		<h2>
+			Here you will be able to find links to other interesting, fun, or useful sites.<br>
+			There are currently none here.
+		</h2>
 	</div>
 </body>
 </html>

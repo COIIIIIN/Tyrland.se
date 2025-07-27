@@ -12,14 +12,12 @@
 	<?php
 		readfile("../nav.htm");
 	?>
-	<div id="ContentContainer">
-		<div id="Content">
-			<!--Begin content here-->
-			<form method="post" action="settings.php">
-				<p><input type="checkbox" class="CheckBox" name="ACC">Use basic/accessible theme</p>
-				<button type="submit" class="Glass Button">Apply</button>
-			</form>
-		</div>
+	<div id="Content">
+		<!--Begin content here-->
+		<form method="post" action="settings.php">
+			<p><input type="checkbox" class="CheckBox" name="ACC">Use basic/accessible theme</p>
+			<button type="submit" class="Glass Button">Apply</button>
+		</form>
 	</div>
 </body>
 </html>

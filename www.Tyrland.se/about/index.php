@@ -12,20 +12,18 @@
 	<?php
 		readfile("../nav.htm");
 	?>
-	<div id="ContentContainer">
-		<div id="Content">
-			<!--Begin content here-->
-			<h2>About Tyrland.se</h2>
-			<p>
-				Tyrland.se is my website where I publish fun, interesting, or useful things.<br>
-				It is currently in a very early form, and i'm still working on style and form.
-			</p>
-			<p>
-				Background image from Wikimedia Commons, although significantly edited & cropped to fit my needs:<br>
-				<a class="Link U ExtLink" href="https://commons.wikimedia.org/wiki/File:Pillars_of_Creation_(NIRCam_Image).jpg">SCIENCE: NASA, ESA, CSA, STScIIMAGE PROCESSING: Joseph DePasquale (STScI), Anton M. Koekemoer (STScI), Alyssa Pagan (STScI)</a>, Public domain, via Wikimedia Commons
-			</p>
-			<h2><a href="/About/Blog" class="Link">Blog page</a></h2>
-		</div>
+	<div id="Content">
+		<!--Begin content here-->
+		<h2>About Tyrland.se</h2>
+		<p>
+			Tyrland.se is my website where I publish fun, interesting, or useful things.<br>
+			It is currently in a very early form, and i'm still working on style and form.
+		</p>
+		<p>
+			Background image from Wikimedia Commons, although significantly edited & cropped to fit my needs:<br>
+			<a class="Link U ExtLink" href="https://commons.wikimedia.org/wiki/File:Pillars_of_Creation_(NIRCam_Image).jpg">SCIENCE: NASA, ESA, CSA, STScIIMAGE PROCESSING: Joseph DePasquale (STScI), Anton M. Koekemoer (STScI), Alyssa Pagan (STScI)</a>, Public domain, via Wikimedia Commons
+		</p>
+		<h2><a href="/About/Blog" class="Link">Blog page</a></h2>
 	</div>
 </body>
 </html>

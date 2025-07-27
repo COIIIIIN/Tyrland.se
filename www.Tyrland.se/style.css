@@ -1,12 +1,17 @@
 html,body{
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	color:white;
+	color: white;
 	height: 100%;
 	margin: 0;
-	overflow: hidden;
+	overflow-x: hidden;
 	background-image: url("Res/bg.webp");
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
+	overflow-y: scroll;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	width: 100%;
 }
 .Hidden{
 	display: none;
@@ -85,12 +90,14 @@ html,body{
 	font-family: monospace;
 }
 #Content{
-	display:block;
+	display: block;
 	box-sizing: border-box;
-	width:100%;
-	max-width:600pt;
-	padding:10pt;
-	height:fit-content;
+	width: 100%;
+	max-width: 600pt;
+	padding: 10pt;
+	padding-top: 10pt;
+	height: fit-content;
+	padding-top: 77.2pt;
 }
 #BlogArea{
 	display: grid;

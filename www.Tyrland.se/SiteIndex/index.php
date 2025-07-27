@@ -19,8 +19,8 @@
 			<ul>
 				<a href="/" class="Tl Link">Main page</a>
 				<a href="/Links" class="Tl Link">Links</a>
-				<a href="/about" class="Link Tl">About</a>
-				<a href="/about/Blog" class="Link Tl">Blog</a>
+				<a href="/About" class="Link Tl">About</a>
+				<a href="/About/Blog" class="Link Tl">Blog</a>
 				<a href="/TestPage" class="Link Tl">Tools</a>
 				<a href="/DungeonPlanner" class="Link Tl">DungeonPlanner</a>
 			</ul>
