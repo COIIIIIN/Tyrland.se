@@ -47,7 +47,7 @@ html,body{
 	background-position: right center;
 	background-size: 0.857em;
 	background-repeat: no-repeat;
-	background-image: url("Res/ext-link.svg");
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><title>external link</title><path fill="%23639bff" d="M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1"/></svg>');
 }
 .LtLink:visited{
 	text-decoration: none;
@@ -57,18 +57,7 @@ html,body{
 	background-position: left center;
 	background-size: 1em;
 	background-repeat: no-repeat;
-	background-image: url("Res/icon.png");
-}
-#ContentContainer{
-	display: flex;
-	overflow-y: scroll;
-	top:0;
-	width:100%;
-	position: absolute;
-	backdrop-filter: blur(1px);
-	padding-top: 56.4pt;
-	bottom:0;
-	justify-content: center;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAVBJREFUeJztmrENwkAMRRNEwRQwARNRIlqGoUWUTMQEMAVdqONIsSxf8pD8X5nA5efLdmLnuk4IUZneHjjfh4EQshaPSz+65w0l5F+QAbQAGhlAC6CRAbQAmq098H19Fr3g7rifPb/09S3lI0AG0AJoJr1AFttL2Hdvr9fwfm/PZykfATKAFkAzeQ+Isvb8oHVNKB8BMoAWQBOuAV7Ot36Xt+vZXiJbE8pHgAygBdC4+RLN+eftMLtmtBewnK7v0f+9+YK3XvkIkAG0AJrwt8FozkfXjz7HszWhfATIAFoATbgXiOb80lg90flE+QiQAbQAGvfbYOv+uzXZ+UT5CJABtAAaN39b99/ZXqB1r1I+AmQALYAm/AzP1oTs/gBLdj5RPgJkAC2AJj0PiNaELNmct5SPABlAC6BJ7xHyaoIlun+gdc5bykeADKAFCCEEyQ8lpYsmnaLllQAAAABJRU5ErkJggg==');
 }
 .Content-old{
 	Padding: 10pt;
