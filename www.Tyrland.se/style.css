@@ -112,7 +112,7 @@ nav{
 	margin: 0;
 	padding: 0;
 	z-index: 1;
-	position: sticky;
+	position: absolute;
 	width: 100%;
 	object-fit:scale-down;
 	border-style: none;

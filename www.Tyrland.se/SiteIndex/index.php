@@ -21,7 +21,7 @@
 				<a href="/Links" class="Tl Link">Links</a>
 				<a href="/About" class="Link Tl">About</a>
 				<a href="/About/Blog" class="Link Tl">Blog</a>
-				<a href="/TestPage" class="Link Tl">Tools</a>
+				<a href="/TestPage" class="Link Tl">Test Page</a>
 				<a href="/DungeonPlanner" class="Link Tl">DungeonPlanner</a>
 			</ul>
 		</div>
